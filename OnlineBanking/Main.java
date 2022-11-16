@@ -11,5 +11,7 @@ public class Main {
         bank.transfer(300, consumer2, consumer);
         bank.transfer(200, corporate2, corporate);
         bank.transfer(50, corporate, corporate2);
+        bank.printPersonalTransactions(consumer2);
+        bank.printPersonalTransactions(corporate2);
     }
 }
