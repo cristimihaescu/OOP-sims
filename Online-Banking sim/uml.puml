@@ -1,0 +1,19 @@
+@startuml
+class Bank{
+-transactions()
+-personalTransactions()
++transfer()
+}
+
+enum accountType{
+CONSUMER,
+CORPORATE
+}
+
+class Client{
+-id : UUID
+-accounts : <List>
++corporateCheck()
+}
+
+@enduml
