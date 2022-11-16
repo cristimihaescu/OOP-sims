@@ -1,3 +1,5 @@
+package OnlineBanking;
+
 import java.util.UUID;
 
 public abstract class BankAccount {
@@ -23,5 +25,6 @@ public abstract class BankAccount {
     public String getCurrency() {
         return this.currency;
     }
-public abstract void transfer(int var1, BankAccount var2);
+
+    public abstract void transfer(int var1, BankAccount var2);
 }

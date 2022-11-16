@@ -1,3 +1,5 @@
+package OnlineBanking;
+
 import java.util.List;
 
 public class Bank {
@@ -14,6 +16,5 @@ public class Bank {
     }
 
     public void printPersonalTransactions(BankAccount bankAccount) {
-        System.out.println(bankAccount);
     }
 }
