@@ -1,3 +1,5 @@
+package ConstructionBusiness.src;
+
 public class Main {
     public static void main(String[] args) {
         ConstructionSite constructionSite = new ConstructionSite(ConstructionType.OFFICE_BUILDING);
