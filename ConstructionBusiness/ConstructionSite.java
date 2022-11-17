@@ -17,7 +17,6 @@ public abstract class ConstructionSite {
         }
         return false;
     }
-
     public void addEngineer(Engineer engineer) {
         employeeList.add(engineer);
     }

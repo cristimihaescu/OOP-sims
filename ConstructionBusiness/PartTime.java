@@ -1,9 +1,7 @@
 package ConstructionBusiness;
 
 public class PartTime extends Employee{
-    public PartTime(String name, int salary, int hourlySalary) {
-        super(name, salary, hourlySalary);
-        this.salary = 0;
-        this.hourlySalary = 12;
+    public PartTime(String name) {
+        super(name, 0, 12);
     }
 }
